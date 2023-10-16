@@ -1,0 +1,124 @@
+
+
+h1 {
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24.5pt;
+}
+
+.s1 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s2 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s3 {
+    color: #00F;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+.p,
+p {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0pt;
+}
+
+.h2,
+h2 {
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.s4 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.s5 {
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+.resume-wrapper {
+    width: 21cm;
+    height: 29.7cm;
+    background: #fff;
+    margin: 0px auto 0px;
+    margin-top: 140px;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+
+li {
+    display: block;
+}
+
+#l1 {
+    padding-left: 0pt;
+}
+
+#l1>li>*:first-child:before {
+    content: "• ";
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 6pt;
+    vertical-align: 1pt;
+}
+
+li {
+    display: block;
+}
+
+#l2 {
+    padding-left: 0pt;
+}
+
+#l2>li>*:first-child:before {
+    content: "• ";
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}

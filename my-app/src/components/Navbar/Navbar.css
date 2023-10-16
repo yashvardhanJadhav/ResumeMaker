@@ -1,0 +1,64 @@
+#navbar {
+    position: fixed;
+    /* Make it stick/fixed */
+    /* Hide the navbar 50 px outside of the top view */
+    width: 100%;
+    z-index: 30;
+    /* Full width */
+    transition: top 0.3s;
+}
+#navbar{
+    background-color: #1E2837;
+}
+.navBlur {
+    /* opacity: 90%; */
+    /* background-color: #0B192E ; */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
+}
+
+@media screen and (min-width: 900px) {
+    .toggler {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+
+}
+
+.fa-layer-group,
+.fa-github,
+.fa-up-right-from-square {
+    color: #65FFDB;
+}
+
+.nav-links,
+.toggler {
+    color: #CCD6F6;
+    margin: auto;
+    margin-left: 2rem;
+    font-family: 'Fragment Mono', monospace;
+}
+.logoTitle{
+    font-family: 'Fragment Mono', monospace;
+
+}
+.toggler {
+    color: #5AE7C8;
+}
+
+.links-container {
+    display: inline-block;
+    width: 1.25rem;
+    position: absolute;
+    bottom: -70px;
+}
+
+.links-items {
+
+    margin-top: 2rem;
+}
